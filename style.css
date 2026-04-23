@@ -85,9 +85,10 @@ footer {
 }
 
 .socials img {
-    width: 10px;
-    margin: 4px;
-    transition: 0.3s;
+    width: 25px !important;
+    height: 25px !important;
+    max-width: 25px !important;
+    margin: 6px;
 }
 
 .socials img:hover {
