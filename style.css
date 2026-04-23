@@ -20,15 +20,23 @@ nav a {
 }
 
 .hero {
-    background: #222;
+    background: url('https://images.unsplash.com/photo-1565610222536-ef125c59da2e') center/cover;
     color: white;
-    padding: 80px 20px;
+    padding: 100px 20px;
     text-align: center;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+.cta-buttons {
+    margin-top: 20px;
 }
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
+    margin: 10px;
     padding: 12px 20px;
     background: #007BFF;
     color: white;
@@ -36,41 +44,27 @@ nav a {
     border-radius: 5px;
 }
 
+.whatsapp {
+    background: #25D366;
+}
+
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     padding: 40px 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
 }
 
 .card {
     background: white;
     padding: 20px;
-    margin-bottom: 15px;
     border-radius: 8px;
-}
-
-ul {
-    line-height: 1.8;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-input, textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-button {
-    background: #28a745;
-    color: white;
-    padding: 12px;
-    border: none;
-    cursor: pointer;
+    text-align: center;
 }
 
 footer {
@@ -79,19 +73,10 @@ footer {
     text-align: center;
     padding: 15px;
 }
-.socials {
-    text-align: center;
-    margin-top: 25px;
-}
 
+/* SOCIAL ICONS FIX */
 .socials img {
-    width: 25px !important;
-    height: 25px !important;
-    max-width: 25px !important;
+    width: 24px;
+    height: 24px;
     margin: 6px;
 }
-
-.socials img:hover {
-    transform: scale(1.2);
-}
-
