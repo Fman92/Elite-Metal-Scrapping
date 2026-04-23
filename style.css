@@ -81,12 +81,12 @@ footer {
 }
 .socials {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .socials img {
     width: 10px;
-    margin: 8px;
+    margin: 4px;
     transition: 0.3s;
 }
 
